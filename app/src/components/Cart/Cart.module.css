@@ -34,6 +34,7 @@
     background-color: #dd6637e5;
     border-color: #dd6637e5;
     color: white;
+    transition: 0.5s;
 }
 
 .actions .button--alt {

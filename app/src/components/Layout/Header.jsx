@@ -3,12 +3,12 @@ import meals from '../../assets/meals.jpg';
 import classes from './Header.module.css';
 import HeaderButtonCart from './HeaderButtonCart';
 
-function Header() {
+function Header(props) {
     return (
         <>
             <header className={classes.header}>
                 <h1>Dino Meals</h1>
-                <HeaderButtonCart />
+                <HeaderButtonCart onClick={props.onShowCart}/>
             </header>
 
             <div className={classes['main-image']}>
