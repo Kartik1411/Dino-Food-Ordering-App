@@ -22,8 +22,8 @@
 }
 
 .main-image img {
-  width: 110%;
-  height: 100%;
-  object-fit: cover;
-  transform: rotateZ(-5deg) translateY(-5rem) translateX(-1rem);
+	width: 110%;
+	height: 100%;
+	object-fit: cover;
+	transform: rotateZ(-5deg) translateY(-5rem) translateX(-1rem);
 }
